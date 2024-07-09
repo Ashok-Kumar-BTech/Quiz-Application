@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="link/main.css">
+</head>
+<body style="background-image: url('img/bg.jpg');">
+  <div id="timer"></div>
+  <div class="head">
+    <div id="home" class="active">
+      <h2>Quiz Instructions</h2>
+      <div class="home-gif">
+        <img src="img/logo.gif" alt="Quiz GIF">
+      </div>
+      <div class="note">
+        <p>This Quiz contains multiple choice questions from different domains. Answer the Questions and complete them within the time limit. All the Best !!!</p>
+      </div>
+      <div class="start-button">
+        <button id="start-quiz">Start Quiz</button>
+      </div>
+    </div>
+    <div id="pg1">
+      <h2>Page 1</h2>
+      <div class="question-container"></div>
+      <div class="nav-buttons">
+        <button id="next1">Next</button>
+      </div>
+    </div>
+    <div id="pg2">
+      <h2>Page 2</h2>
+      <div class="question-container"></div>
+      <div class="nav-buttons">
+        <button id="prev2">Previous</button>
+        <button id="next2">Next</button>
+      </div>
+    </div>
+    <div id="pg3">
+      <h2>Page 3</h2>
+      <div class="question-container"></div>
+      <div class="nav-buttons">
+        <button id="prev3">Previous</button>
+        <button id="next3">Next</button>
+      </div>
+    </div>
+    <div id="pg4">
+      <h2>Page 4</h2>
+      <div class="question-container"></div>
+      <div class="nav-buttons">
+        <button id="prev4">Previous</button>
+        <button id="submit-quiz">Submit</button>
+      </div>
+    </div>
+    <div id="result">
+      <h2>Quiz Results</h2>
+      <p id="score"></p>
+      <button id="restart-quiz">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="link/script.js"></script>
+</body>
+</html>
